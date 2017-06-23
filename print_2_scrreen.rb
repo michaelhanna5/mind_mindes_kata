@@ -3,11 +3,10 @@
  # 1.upto(100) { |x| puts x }
  100.times do 
  num += 1
- 	if num == 2
- 		p"even"
+ 	if num % 2 == 0
+ 		puts "even"
  	else
-
- 	p num 
+ 		puts num 
 	end		
 end
 
