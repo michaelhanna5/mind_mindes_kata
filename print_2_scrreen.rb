@@ -5,9 +5,9 @@
  num += 1
  	if num % 2 == 0
  		puts "even"
- 	elsif num == 3
+ 	elsif num % 3 == 0
  		puts "mined"
- 	else
+    else
  		puts num 
 	end
 end
