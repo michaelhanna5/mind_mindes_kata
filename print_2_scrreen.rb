@@ -4,6 +4,8 @@ num = 0
 	num += 1
 		if num % 3 == 0
 			puts "mined"
+		elsif num == 5
+			puts "minds"
 		else
 			puts num
 		end
