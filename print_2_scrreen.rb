@@ -6,6 +6,8 @@ num = 0
 			puts "mined"
 		elsif num % 5 == 0
 			puts "minds"
+		elsif num % 3 & 5 == 0
+			puts "mined minds"
 		else
 			puts num
 		end
